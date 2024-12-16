@@ -152,7 +152,10 @@
                                             <p>You need to meet following requirements to fully enjoy PXPlay.</p>
                                             <ol>
                                                 <li>Android device with at least Android 5.0</li> or
-												<li>iPhone with iOS 14+ or an AppleTV with tvOS 15+</li>
+												<li>iPhone with iOS 14+ or an AppleTV with tvOS 15+</li> or
+												<li>Windows 10/11 PC</li> or
+												<li>Linux OS with x64 bit</li> or
+												<li>Mac with macOS 12.7+</li>
                                                 <li>Dual core CPU highly recommended</li>
                                                 <li>2 GB or more of RAM</li>
                                                 <li>1024 × 768 or higher display resolution</li>
@@ -187,7 +190,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                                <p>PXPlay is available for Android, iOS Apple TV, Windows and for Linux PCs</p>
+                                <p>PXPlay is available for Android, iOS Apple TV, Windows, Linux and Mac PCs</p>
 
                                 <p>Please download the newest version from <a href="https://streamingdv.com/shop-list-ns.html" target="_blank">my website here</a></p>
                             </div>
@@ -351,7 +354,7 @@
 								
 								<h3>Manual configuration<h3>
 								
-								<p>The following section explains how to manually configure port forwarding on your router.</p>
+								<p>The following section explains how to manually configure port forwarding on your router. Keep in mind that you MUST use the manual remote connection in PXPlay if you want that your manual router configuration has any effect.</p>
                                 <p>In order to configure your router you must access your router's dashboard. To configure your router you must be in the same network than your router (e.g. your WiFi network at home). It is recommended to do this on a PC but can of course also be performed on any other device which has a web browser. Open a web browser such as Google Chrome or similar. Go to the Address bar and enter the IP Address of your router. If you don't know the IP address of your router <a href="https://www.businessinsider.com/how-to-find-ip-address-of-router" target="_blank">click here</a> for an explanation of how to find it out.</p>
 								
 								<p>If you are on your router's dashboard you have to navigate to the port forwarding section. Please note that each dashboard looks different, it could probably be located under "WAN" settings, "Internet" settings or similar. Following ports to the internal IP-Address of your console must be forwarded:</p>
@@ -530,6 +533,20 @@
 						<h4>PXPlay does not work correctly on my Chrome OS device</h4>
 						
 						<p>Chrome OS offers Android app support, however some functionalities are limited and will not work. First of all, automatically discover your console will not work as the firewall on Chrome OS devices is blocking the discovery request. In order to register with your console or to simply connect, you have to enter the IP-Address of your console manually (if you want to connect over mobile data you have to enter the public IP-Address of your router. You can find more information <a href="#line5">here</a>). Furthermore, some Chrome OS devices have faulty hardware decoders which may interfere the streaming experience. PXPlay was not designed especially for Chrome OS devices but only for Android, Android TV, iOS and AppleTV devices. I do not want to prevent installations on Chrome OS devices because on some Chrome OS devices PXPlay might work quite well, but please keep in mind that there could be some potential limitations when you are using PXPlay on Chrome OS.</p>
+						
+						<h4>Haptic feedback of my DualSense controller is not working on my Mac</h4>
+						
+						<p>In order to make haptic feedback work you must connect the controller via USB to your Mac and perform following steps</p>
+						
+						<ol>
+						    <li>Press Cmd+Space to open Spotlight Search, type Audio MIDI Setup, and press Enter to launch the utility.</li>
+                            <li>In the Audio MIDI Setup utility, select the DualSense Wireless Controller Output device.</li>
+                            <li>Click Configure Speakers</li>
+                            <li>Configure DualSense Haptic speakers</li>
+                            <li>Select Quadrophonic from the configuration dropdown</li>
+							<li>Select Apply</li>
+							<li>Restart PXPlay if it was opened before</li>
+                        </ol>
 						
                     </section>
                     <!-- end section -->
