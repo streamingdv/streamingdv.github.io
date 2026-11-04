@@ -418,17 +418,22 @@
 						
 						<p>More detailed instructions are available <a href="https://streamingdv.github.io/pxplay/psn_login.html" target="_blank" rel="noopener noreferrer">here</a>. You should definitely read this if you have login problems</p>
 						
-						<p>Recently, some users reported problems when performing the login. They will get an error message "A connection to the server could not be established". This seems to be an error on the login website. This login is required since console firmware 7.0 to get your Account-ID which is required for registering with your console. There are some other possibilities to get your Account-ID.</p>
-
-                        <p>You can go to a PC and open <a href="https://trinket.io/embed/python3/52183a157e?outputOnly=true&runOption=run&start=result&showInstructions=true" target="_blank" rel="noopener noreferrer">this website</a> and just follow the instructions that appear there. Please note, in the result of the trinket website your actual account id is next to the <i>user_id variable</i> and should look something like this<br><br><i>'user_id': '4474834823397313449'</i><br><br>It consists only of numbers. Here again is the full link of the trinket webpage:</p>
+						<p>To register with your console, PXPlay needs your Account-ID, which it gets from the PSN login. If the login page does not load or shows an error, there are other ways to sign in or to register without a login.</p>
 						
-						<p><a href="https://trinket.io/embed/python3/52183a157e?outputOnly=true&runOption=run&start=result&showInstructions=true" target="_blank" rel="noopener noreferrer">https://trinket.io/embed/python3/52183a157e?outputOnly=true&runOption=run&start=result&showInstructions=true</a></p>
+						<p><strong>Sign in with your phone:</strong> On Android TV and on PC, PXPlay can show a QR code instead of the login page. On Android TV select "Problems?" on the login page, on PC choose "Sign in with your phone". Scan the code with your phone and sign in there. PXPlay picks up the login on its own, nothing has to be typed.</p>
 						
-						<p>If you are still getting the same error or another error please be sure the credentials you are entering on the login page are correct otherwise you could also try using a free VPN service and pretend you're in a country other than the one you are actually in (also using another Browser might help). Then try to follow the instructions of the website above again.</p>
+						<p><strong>Sign in with your browser:</strong> On Android phones and tablets tap "Problems?" on the login page, on PC choose "Sign in with browser". Sign in on the PSN login webpage in your browser, then open the login token page and copy its whole text (it starts with "npsso"), or copy the address of the white redirect page that appears after the login. Paste it into PXPlay to finish the login.</p>
 						
-						<p>If you have successfully queried your Account-ID you can register with your console manually without performing a login. In the Register view of PXPlay just activate the "Advanced Settings" check "Register console manually"/ "Register console manually" and add the Account-ID in the textbox.</p>
+						<p><strong>Register without a login:</strong> When registering, choose "Local", activate "Advanced settings" and select one of these options under "Register Method":</p>
 						
-						<p>Thanks to <a href="https://github.com/CSystem77" target="_blank" rel="noopener noreferrer">CSystem77</a> for providing this script at trinket.io.</p>
+						<ol style="font-size: 16px">
+						    <li>"PSN Username": enter your PSN username and PXPlay looks up your Account-ID for you. Your PSN privacy settings must allow others to find you by search.</li>
+						    <li>"Account ID": enter your Account-ID yourself. It consists only of numbers, for example <i>4474834823397313449</i>. You can look it up with your PSN username on <a href="https://www.psntools.com/psn/checker" target="_blank" rel="noopener noreferrer">psntools.com</a>.</li>
+						</ol>
+						
+						<p>Please note that the automatic remote connection requires a login during the registration. A console registered without a login can be used locally or with a manual remote connection.</p>
+						
+						<p>If the login keeps failing, make sure you sign in with the same account you use on your console, that no VPN or ad-blocking app on your device blocks the login page, and try another browser.</p>
 
                         <h4>My controller isn't working on my Android device and the mapping feature doesn't register any inputs</h4>
 						
